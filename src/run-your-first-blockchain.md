@@ -145,6 +145,15 @@ Then open `http://localhost:8000/` in your browser, that's the webapp you use to
 Plz pay attention to the right-side of the screenshot, inside the browser console, you can see that the WebApp actually connects to 
 the `Node's RPC` server via `WebSocket`. That's why the WebApp can keep refreshing the latest block data and render it into the UI.
 
+Also, if you go to the `Network -> WS` tab in the `Chrome inspector`, you can see the live WebSocket message like below:
+
+![node-frontend-live-websocket-message.png](./images/node-frontend-live-websocket-message.png)
+
+As this `Node` template simulates the user account balances and transactions, then you can do a **Money Transfer** to any user in the
+list. The screenshot below describes the case of `Alice transfers some money to Eve` and update both of their balances in real-time:
+
+![node-frontend-transactions.png](./images/node-frontend-transactions.png)
+
 </br>
 
 ### Summary
