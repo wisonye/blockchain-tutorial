@@ -1,11 +1,15 @@
 # Blockchain Tutorial
 
-## What's included in this book
-
 This book includes everything you need to know about building a production-ready `Blockchain`.
 
-Here is the chapter list content:
-
+## Chapter list content
+- What this book will covered
+- What is `blockchain`
+- More about `blockchain`
+- Let's build a blockchain
+    - What is `substrate`
+    - Installation environment setup
+    - Run your first `blockchain`
 
 </br>
 
